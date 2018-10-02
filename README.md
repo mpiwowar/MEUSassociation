@@ -14,13 +14,15 @@ To install the package one can download the tar.gz file in tha latest version an
 
 The followin presents sample code that can be used to see how the package works:
 library(MEUSassociation)
-> library(MEUSassociation)
-> data("cancer_mutations")
-> z_coefficient(cancer_mutations)
-> data("cancer_mutations_gene_groups")
-> z_coefficient(cancer_mutations, row_groups = cancer_mutations_gene_groups)
-> head(z_coefficient_ranks(cancer_mutations))
-> head(z_coefficient_ranks(cancer_mutations, col_groups = cancer_mutations_gene_groups)) 
+```R
+library(MEUSassociation)
+data("cancer_mutations")
+z_coefficient(cancer_mutations)
+data("cancer_mutations_gene_groups")
+z_coefficient(cancer_mutations, row_groups = cancer_mutations_gene_groups)
+head(z_coefficient_ranks(cancer_mutations))
+head(z_coefficient_ranks(cancer_mutations, col_groups = cancer_mutations_gene_groups)) 
+```
 
 ## Authors
 
