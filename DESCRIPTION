@@ -1,0 +1,19 @@
+Package: MEUSassociation
+Type: Package
+Title: Evaluating the Z coefficient
+Version: 0.4
+Date: 2018-09-29
+Authors@R: c(person("Monika", "Piwowar", role = c("aut"), email = "mpiwowar@cm-uj.krakow.pl"),
+	person("Tomasz", "Kulaga", role = c("cre", "aut"), email = "tomasz.kulaga@gmail.com"))
+Author: Monika Piwowar [aut],
+ 	Tomasz Kulaga [aut, cre]
+Maintainer: Tomasz Kulaga <tomasz.kulaga@gmail.com>
+Description: Package contains implementation of the Z association coefficient for contingency
+  tables proposed by Z. Meus. The package includes functions for evaluating the Z coefficient
+  for the whole contingency table or for each entry in the contingency table.
+  The paper describing the methodology and example used is being finalized and is going to be
+  submitted for publication shortly.
+Depends: R (>= 2.10)
+License: GPL-3
+Classification/MSC-2010: 62H20
+RoxygenNote: 6.0.1
