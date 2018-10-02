@@ -12,8 +12,7 @@ To install the package one can download the tar.gz file in tha latest version an
 
 ## Running sample code
 
-The followin presents sample code that can be used to see how the package works:
-library(MEUSassociation)
+The following presents a sample code that can be used to see how to use the package to calculate Z coefficien on a sample data:
 ```R
 library(MEUSassociation)
 data("cancer_mutations")
